@@ -1,0 +1,5 @@
+model_list:
+  - model_name: nim-llama
+    litellm_params:
+      model: nvidia/llama-3.1-70b-instruct
+      api_key: os.environ/NVIDIA_API_KEY

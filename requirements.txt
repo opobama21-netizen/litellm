@@ -70,7 +70,8 @@ openapi-core==0.21.0 # for OpenAPI compliance tests
 # LITELLM ENTERPRISE DEPENDENCIES
 ########################
 litellm-enterprise==0.1.27
-litellm
+
+litellm==1.38.7
 fastapi
 uvicorn
 httpx

@@ -1,5 +1,12 @@
-model_list:
-  - model_name: nim-llama
-    litellm_params:
-      model: nvidia/llama-3.1-70b-instruct
-      api_key: os.environ/NVIDIA_API_KEY
+models:
+  deepseek:
+    type: nvidia-nim
+    api_key: "${NVIDIA_API_KEY}"
+    model_name: deepseek-r1t2
+    endpoint: https://api.nvidia.com/v1
+
+  glm-46-flash:
+    type: nvidia-nim
+    api_key: "${NVIDIA_API_KEY}"
+    model_name: glm-4.6-flash
+    endpoint: https://api.nvidia.com/v1

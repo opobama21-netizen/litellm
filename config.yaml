@@ -3,4 +3,4 @@ models:
     type: nvidia-nim
     api_key: "${NVIDIA_API_KEY}"
     model_name: deepseek-r1t2
-    endpoint: https://api.nvidia.com/v1
+    endpoint: https://integrate.api.nvidia.com/v1
